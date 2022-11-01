@@ -1,6 +1,5 @@
 package com.cydeo.pages;
 
-import io.cucumber.java.zh_cn.假如;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -8,51 +7,40 @@ import java.util.List;
 
 public class WebTableOrderPage extends BasePage {
 
-    @FindBy(xpath = "//input[@name='username']")
-    public WebElement inputUsername;
+//    public WebTableOrderPage2(){
+//        PageFactory.initElements(Driver.getDriver(),this);
+//    }
 
-    @FindBy(xpath = "//input[@name='password']")
-    public WebElement inputPassword;
+    @FindBy(name="product")
+    public WebElement productTypeDropdown;
 
-    @FindBy(xpath = "//button[@type='submit']")
-    public WebElement loginBtn;
-
-    @FindBy(xpath = "(//button[@class='button nav__item'])[2]")
-    public WebElement orderBtn;
-
-    @FindBy(xpath = "//select[@name='product']")
-    public WebElement productSelectBox;
-
-    @FindBy(xpath = "//input[@name='quantity']")
+    @FindBy(name="quantity")
     public WebElement inputQuantity;
 
-    @FindBy(xpath = "//input[@name='name']")
-    public WebElement inputCustomerName;
+    @FindBy(name="name")
+    public WebElement inputName;
 
-    @FindBy(xpath = "//input[@name='street']")
+    @FindBy(name="street")
     public WebElement inputStreet;
 
-    @FindBy(xpath = "//input[@name='city']")
+    @FindBy(name="city")
     public WebElement inputCity;
 
-    @FindBy(xpath = "//input[@name='state']")
+    @FindBy(name="state")
     public WebElement inputState;
 
-    @FindBy(xpath = "//input[@name='zip']")
+    @FindBy(name="zip")
     public WebElement inputZip;
 
-    @FindBy(xpath = "//input[@name='card']")
-    public List<WebElement> inputCard;
+    @FindBy(name="card")
+    public List<WebElement> cardType;
 
-    @FindBy(xpath = "//input[@name='cardNo']")
-    public WebElement inputCardNumber;
+    @FindBy(name="cardNo")
+    public WebElement inputCardNo;
 
-    @FindBy(xpath = "//input[@name='cardExp']")
+    @FindBy(name="cardExp")
     public WebElement inputCardExp;
 
-    @FindBy(xpath = "//button[@type='submit']")
-    public WebElement submitBtn;
-
-    @FindBy(xpath = "(//table[@class='table is-fullwidth']//td[1])[1]")
-    public WebElement nameCheck;
+    @FindBy(xpath = "//button[.='Process Order']")
+    public WebElement processOrderButton;
 }

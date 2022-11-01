@@ -86,4 +86,21 @@ public class BrowserUtils {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), seconds);
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
+
+
+    /**
+     * This method will accept a group of radio buttons as a List<WebElement>
+     *     It will loop through the List and click to the radio button with provided attribute value
+     * @param attributeValue
+     * @param radioButtons
+     */
+    public static void clickRadioButton(List<WebElement> radioButtons, String attributeValue){
+
+        for (WebElement each : radioButtons ) {
+            if(each.getAttribute("value").equalsIgnoreCase(attributeValue)){
+                each.click();
+            }
+        }
+
+    }
 }
