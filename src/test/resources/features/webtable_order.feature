@@ -35,11 +35,11 @@ Feature: Web table user order feature
     Examples: Famous female scientist
       | productType | quantity | customerName      | street            | city   | state   | zipCode | cardType | cardNumber       | expiryDate | expectedName      |
       | Familybea   | 2        | Rosalind Franklin | 221B Baker Street | London | England | 50505   | visa     | 1111222233334444 | 12/23      | Rosalind Franklin |
-      | MoneyCog    | 4        | Marie Curie       | 221B Baker Street | London | England | 50505   | visa     | 1111222233334444 | 12/23      | Marie Curie       |
-      | Screenable  | 2        | Rachel Carson     | 221B Baker Street | London | England | 50505   | visa     | 1111222233334444 | 12/23      | Rachel Carson     |
-      | MoneyCog    | 3        | Katherina Johnson | 221B Baker Street | London | England | 50505   | visa     | 1111222233334444 | 12/23      | Katherina Johnson |
-      | Familybea   | 1        | Marry Anning      | 221B Baker Street | London | England | 50505   | visa     | 1111222233334444 | 12/23      | Marry Anning      |
-      | Screenable  | 2        | Lise Meitner      | 221B Baker Street | London | England | 50505   | visa     | 1111222233334444 | 12/23      | Lise Meitner      |
+      | MoneyCog    | 4        | Marie Curie       | 221B Baker Street | London | England | 50505   | visa     | 1111222233334444 | 12/23      | Marie Curie      |
+      | Screenable  | 2        | Rachel Carson     | 221B Baker Street | London | England | 50505   | visa     | 1111222233334444 | 12/23      | Rachel Carson    |
+#      | MoneyCog    | 3        | Katherina Johnson | 221B Baker Street | London | England | 50505   | visa     | 1111222233334444 | 12/23      | Katherina Johnson |
+#      | Familybea   | 1        | Marry Anning      | 221B Baker Street | London | England | 50505   | visa     | 1111222233334444 | 12/23      | Marry Anning      |
+#      | Screenable  | 2        | Lise Meitner      | 221B Baker Street | London | England | 50505   | visa     | 1111222233334444 | 12/23      | Lise Meitner      |
     @maleSc
     Examples: Famous male scientist
       | productType | quantity | customerName      | street            | city   | state   | zipCode | cardType | cardNumber       | expiryDate | expectedName      |
