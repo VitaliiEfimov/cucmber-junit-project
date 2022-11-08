@@ -28,7 +28,7 @@
 
 Feature: SmartBear order process
 
-#  @smoke
+
   Scenario: SmartBear order process
     Given User is logged into SmartBear Tester account and on Order page
     When User selects FamilyAlbum from product dropdown
