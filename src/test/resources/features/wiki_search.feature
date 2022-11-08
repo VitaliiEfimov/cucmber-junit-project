@@ -16,7 +16,7 @@ Feature: Wikipedia Search Functionality and verifications
     And User clicks wiki search button
     Then User sees Steve Jobs is in the wiki title
 
-
+#@smoke
   Scenario: Wikipedia Search Functionality Title Verification with a String
     When User types "Steve Jobs" in the wiki search box
     And User clicks wiki search button

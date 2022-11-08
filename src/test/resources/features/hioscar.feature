@@ -12,7 +12,7 @@
 #9. Verify title contains “Oscar”
 
 Feature: hioscar search feature
-@hioscarSearch @smoke
+#@hioscarSearch @smoke
   Scenario:
     Given user is on hioscar page
     When user click Search network
