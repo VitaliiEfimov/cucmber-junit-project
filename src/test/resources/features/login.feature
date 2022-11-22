@@ -17,14 +17,14 @@ Feature: Library app login feature
     And user enters librarian password
     Then user should see dashboard
 
-  @student @db @login
+  @student @db @login @smoke
   Scenario: Login as a Student
 #    Given user is on the library login page
     When user enters student username
     And  user enters student password
     Then user should see dashboard
 
-  @admin @employee @login
+  @admin @employee @login @smoke
   Scenario: Login as a admin
 #    Given user is on the library login page
     When user enters admin username

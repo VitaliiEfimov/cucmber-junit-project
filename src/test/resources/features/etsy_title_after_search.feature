@@ -17,7 +17,7 @@
         #2. User types Wooden Spoon in the search box
         #3. User clicks search button
         #4. User sees Wooden Spoon is in the title
-
+      @smoke
       Feature: Etsy Title Verification
   user story: User sees title is as expected.
 
@@ -25,7 +25,7 @@
           Given "User is on home page"
           When User types Wooden Spoon in the search box
           And User clicks search button
-
+        @RepeatedTest
   Scenario: Etsy Search Functionality Title Verification (without parameterization)
 
     Then User sees Wooden spoon is in the title

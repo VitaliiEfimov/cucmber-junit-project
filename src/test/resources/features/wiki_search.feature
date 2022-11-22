@@ -3,7 +3,7 @@
 #2. User types Steve Jobs in the wiki search box
 #3. User clicks wiki search button
 #4. User sees Steve Jobs is in the wiki title
-
+@smoke
 Feature: Wikipedia Search Functionality and verifications
 
   Background:

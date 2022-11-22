@@ -10,9 +10,9 @@
 #7. From Coverage area dropdown Select New Jersey
 #8. Click Continue button
 #9. Verify title contains “Oscar”
-
+@smoke
 Feature: hioscar search feature
-#@hioscarSearch
+
   Scenario:
     Given user is on hioscar page
     When user click Search network

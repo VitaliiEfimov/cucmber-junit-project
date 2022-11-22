@@ -1,6 +1,7 @@
+
 Feature: Web table user order feature
 
-
+  @smoke
   Scenario Outline: User should be able to place order and order seen in web table
     Given user is already logged in and on order page
     When user selects product type "<productType>"

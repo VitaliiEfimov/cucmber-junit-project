@@ -5,7 +5,7 @@
       #
       #Expected: Etsy - Shop for handmade, vintage, custom, and unique gifts for
       #everyone
-
+        @smoke
       Feature: Etsy Title Verification
   user story: User sees title is as expected.
 
